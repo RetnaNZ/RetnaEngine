@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
     SDL_Window* window = SDL_CreateWindow("SDL3 Window", 800, 600, SDL_WINDOW_OPENGL);
     if (!window) {
         SDL_Log("Unable to create window: %s", SDL_GetError());
-        printf("Press Enter to exit...\n");
+        printf("Press Enter...\n");
         SDL_Quit();
         getchar();
         return 1;
